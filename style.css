@@ -3,7 +3,8 @@
     padding: 0%;
     box-sizing: border-box;
     color: white;
-    font-family: gilroy;
+    /* font-family: gilroy; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 html,
@@ -15,7 +16,6 @@ body {
 #nav {
     position: fixed;
     display: flex;
-    /* background-color: rgb(13, 196, 13); */
     height: 12vh;
     width: 100%;
     justify-content: space-between;
@@ -33,7 +33,6 @@ body {
     border: 2px solid transparent;
     border-radius: 50px;
     width: 9.5vw;
-    /* padding: 0 12px; */
 }
 
 #nav button svg {
@@ -58,7 +57,6 @@ body {
 
 .nav-part2 h5 {
     margin-bottom: 1vw;
-    /* background-color: red; */
     display: none;
     overflow: hidden;
 }
@@ -97,7 +95,6 @@ body {
 #nav:hover #nav-bottom {
     height: 150%;
     bottom: -150%;
-    /* background-color: #111; */
 }
 
 #page1 {
@@ -210,4 +207,62 @@ body {
     height: 100vh;
     width: 100%;
     background-color: #111;
+    padding: 0 10.2vw;
+    padding-bottom: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #333;
+}
+
+#page2-left {
+    height: 100%;
+    width: 40%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 3vw 0;
+}
+
+#page2-left p {
+    font-size: 1vw;
+
+}
+
+#page2-left h5 {
+    font-size: 1.2vw;
+    width: 75%;
+    font-weight: 400;
+
+
+}
+
+#page2-right {
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(129, 80, 80); */
+}
+
+.right-elem {
+    /* background-color: red; */
+    position: relative;
+    padding-top: 2vw;
+    padding-bottom: 4.5vw;
+    border-bottom: 1px solid #333;
+}
+
+.right-elem h2 {
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+
+.right-elem img {
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
 }

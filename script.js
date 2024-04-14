@@ -35,4 +35,9 @@ function navAnimation() {
         })
     })
 }
-navAnimation()
+// navAnimation()
+
+var elem=document.querySelectorAll(".right-elem")
+elem.forEach(function(){
+    console.log("Hellooo")
+})
