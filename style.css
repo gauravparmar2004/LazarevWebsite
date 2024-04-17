@@ -385,8 +385,6 @@ body {
 #page5 {
     height: 100vh;
     width: auto;
-    /* background-color: blanchedalmond; */
-
 }
 
 #page5-boxes {
@@ -402,22 +400,62 @@ body {
     border: 2px solid none;
     margin: 2vw 0.5vw;
 }
-.box h2{
+
+.box h2 {
     color: black;
     font-size: 4vw;
     padding: 2vw 2.2vw;
 }
-.box p{
+
+.box p {
     color: black;
     padding: 0 2.2vw;
 }
-.box h6{
-    color:#A6A6A6;
+
+.box h6 {
+    color: #A6A6A6;
     padding: 7vw 2.2vw;
     font-size: 1vw;
 }
-#page6{
-    height: 100%;
+
+#page6 {
+    height: 100vh;
     width: auto;
-    background-color: red;
+}
+
+#page6-right {
+    height: 70vh;
+    width: 58.9vw;
+    position: absolute;
+    margin: 10vw 28vw;
+}
+
+#page6 h5 {
+    width: 7vw;
+    font-size: 0.94vw;
+    position: absolute;
+    margin: 7vw 3vw;
+    color: #111;
+}
+
+#page6 .first-p {
+    color: #363535;
+    position: absolute;
+    margin: 5vw 17vw;
+    font-size: 2.5vw;
+    width: 48vw;
+    line-height: 7vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+#page6 .sec-p {
+    color: #363535;
+    position: absolute;
+    margin: 11.70vw 2vw;
+    line-height: 7vh;
+    font-size: 2.5vw;
+    width: 65vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
 }
