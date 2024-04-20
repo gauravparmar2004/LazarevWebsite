@@ -82,18 +82,32 @@ function page3VideoAnimation() {
         })
     })
 }
+
+function page7SectionVideoAnimation() {
+    var sections = document.querySelectorAll(".sec-right")
+    sections.forEach(function (elem) {
+        elem.addEventListener("mouseenter", function () {
+            elem.childNodes[3].style.opacity = 1
+            elem.childNodes[3].play()
+        })
+
+        elem.addEventListener("mouseleave", function () {
+            elem.childNodes[3].style.opacity = 0
+            elem.childNodes[3].load()
+        })
+    })
+}
+
 page2Animation()
 navAnimation()
 page3VideoAnimation()
-var sections = document.querySelectorAll(".sec-right")
-sections.forEach(function (elem) {
-    elem.addEventListener("mouseenter", function () {
-        elem.childNodes[3].style.opacity = 1
-        elem.childNodes[3].play()
-    })
+page7SectionVideoAnimation()
 
-    elem.addEventListener("mouseleave", function () {
-        elem.childNodes[3].style.opacity = 0
-        elem.childNodes[3].load()
-    })
-})
+
+// var secsections = document.querySelectorAll(".box1")
+// secsections.forEach(function (elem) {
+//     elem.addEventListener("mouseenter", function () {
+//         elem.childNodes[7].style.opacity = 1
+//         elem.childNodes[7].play()
+//     })
+// })
